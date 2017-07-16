@@ -380,3 +380,45 @@
 .footer_img a{
     margin-left: 26px;
 }
+
+/*产品分类页面*/
+.products .leftTop{
+    width: 183px;
+    background: #f3f3f3;
+    border: 1px solid #d7d7d7;
+}
+.products .rightTop{
+    width: 810px;
+}
+/*产品分类页面-左边导航*/
+.products .left_nav_tit h3{
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-family: "宋体";
+    font-size: 14px;
+    border-bottom: 1px solid #cdcdcd;
+}
+.products .left_nav_cont{
+    padding-left:20px;
+    border-bottom: 1px dotted #d7d7d7;
+    margin-bottom: -1px;
+}
+.products .left_nav_cont .cont_title{
+    /*line-height: 24px;*/
+    padding-top: 11px;
+    font-size: 12px;
+    font-family: "宋体";
+}
+.products .left_nav_cont .cont_list{
+    padding-top: 8px;
+}
+.products .left_nav_cont .cont_list li{
+    height: 24px;
+    width: 50%;
+    float: left;
+    font-size: 12px;
+}
+.products .left_nav_cont .cont_list li:hover{
+    text-decoration: underline;
+}
