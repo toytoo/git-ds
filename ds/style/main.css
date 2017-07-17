@@ -422,3 +422,68 @@
 .products .left_nav_cont .cont_list li:hover{
     text-decoration: underline;
 }
+/*产品分类页面-右边商品详细列表*/
+.products .rightTop{
+    margin-left: 5px;
+}
+.products .banner_bar{
+    float: none;
+}
+.products_list{
+    margin-bottom: 30px;
+}
+.products_list .products_title{
+    height: 34px;
+    line-height: 34px;
+    border-bottom: 2px #ccc solid;
+}
+.products_list .products_title h3{
+    width: 180px;
+    border-bottom: 2px #096dba solid;
+    text-indent: 9px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.products_list .item{
+    width: 21.2%;
+    padding:10px 15px 10px;
+    float: left;
+
+}
+.products_list .item .item_img{
+    height: 170px;
+    width: 100%;
+    display:table;
+}
+.products_list .item .item_img span{
+    display:table-cell;
+    vertical-align:middle;
+    text-align: center;
+}
+.products_list .item .item_img img {
+
+}
+.products_list .item p{
+    line-height: 20px;
+}
+.products_list .item a{
+    color: rgb(72, 72, 72);
+    font-size: 14px;
+
+}
+.products_list .item a:hover{
+    text-decoration: underline;
+}
+.products_list .item .money{
+    color: #d4107e;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
+.products_list .item .star{
+    width: 13px;
+    height: 12px;
+    background: url("../images/products_star.png") left top no-repeat;
+    display: inline-block;
+    margin-left: 1px;
+}
